@@ -1,0 +1,23 @@
+.header{
+    
+        width: 1016px;
+        height: 60px;
+        margin-left: 264px;
+        margin-top: -60px;
+        background-color: #2f323a;
+}
+
+.logo {
+    width: 264px;
+    height: 60px;
+    background-color: #1e2025;
+  }
+
+.img-logo {
+    width: 169px;
+    height: 20px;
+    margin-top: 20px;
+    margin-left: 48px;
+    object-fit: contain;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.5);
+}

@@ -1,0 +1,58 @@
+.left_menu {
+    width: 264px;
+    height: 740px;
+    background-color: #2f323a;
+}
+
+nav{
+    width:264px;
+ }
+ nav li{
+    list-style: none;
+    position:relative; /* importante, para que el submenu tome la posición correcta*/
+    
+ }
+ nav li a{
+    text-decoration:none;
+    padding: 5px;
+    display:block;
+    font-family: ProximaNova;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: left;
+    color: #ffffff;
+ }
+ nav li.parent:hover{
+    margin:-1px;
+ }
+ nav li li a{
+    width:250px;
+    display:block;
+ }
+ /* aquí esta lo importante!! */
+ nav li ul {
+    width: 250px;
+    margin:0;
+    display:none;
+    position: absolute;
+    left: 100%;
+    top:-1px;
+ }
+ nav li:hover ul {
+    display: block;
+ }
+
+ nav.vertical {
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0,0,0,.15);
+    overflow: hidden;
+    text-align: center;
+  }
+   
+nav.vertical > ul {
+    list-style-type: none;
+}
+   
+nav.vertical > ul > li {
+    display: block;
+}
